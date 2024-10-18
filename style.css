@@ -1,7 +1,7 @@
 * {
     font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
   }
   
   body,
@@ -10,6 +10,9 @@
     flex-direction: column;
     justify-content: center;
     align-items:center ;
+    font-size: 50px;
+    font-weight: bold;
+
   }
   
   body {
@@ -19,7 +22,7 @@
   
   main {
     background-color:peru;
-    padding:2px 2px;
+    padding:50px 50px;
     border-radius: 10px;
   }
   
@@ -27,41 +30,40 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
   }
   
   select {
-    margin: 4px 4px;
-    padding: 4px 4px;
+    margin: 50px 20px;
+    padding:50px 20px;
     outline: none;
+    font-size:50px;
+    font-weight: bold;
   }
   
   input {
     background-color: #fff;
     min-width: 100px;
-    margin: 2px;
-    padding: 10px;
+    margin: 30px;
+    padding: 50px;
+    font-size:60px;
+    font-weight: bold;
     border: none;
     border-radius: 8px;
     outline: none;
-    transition: 0.5s;
+    transition: 1s;
   }
   
-  input:focus {
-    box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.5);
-  }
   
   #convert-button {
-    padding: 7px 15px;
+    padding: 40px 40px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s transform;
+    font-size:70px;
+    font-weight: bold;
   }
-  
-  #convert-button:active {
-    transform: scale(0.9);
-  }
-  
   #input-container {
     display: flex;
     flex-direction: column;
@@ -71,8 +73,8 @@
   #error {
     display: none;
     color: #f00;
-    font-size: small;
-    margin: 0 0 10px 30px;
+    font-size: 60px;
+    margin: 30px;
     text-align: start;
   }
   
